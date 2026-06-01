@@ -126,4 +126,5 @@ def print_par_sheet():
     print("Average Spins Until Win: " + avg_spins_to_win[:4])
     print("=" * 40)
 
-print_par_sheet()
+if __name__ == "__main__":
+    print_par_sheet()
